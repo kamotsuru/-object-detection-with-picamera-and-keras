@@ -1,6 +1,6 @@
 # object-detection-with-picamera-and-keras
 ## description
-The image output by [PiNoIR Camera Module](https://www.adafruit.com/product/1567) on an old [Raspbeery Pi 1 MODEL B+](https://www.raspberrypi.org/products/raspberry-pi-1-model-b/) is sent to [Classify ImageNet classes with ResNet50](https://keras.io/api/applications/#usage-examples-for-image-classification-models).
+The image output by [PiNoIR Camera Module](https://www.adafruit.com/product/1567) on an old [Raspbeery Pi 1 MODEL B+](https://www.raspberrypi.org/products/raspberry-pi-1-model-b-plus/) is sent to [Classify ImageNet classes with ResNet50](https://keras.io/api/applications/#usage-examples-for-image-classification-models).
 
 ```
 model = ResNet50(weights='imagenet')
