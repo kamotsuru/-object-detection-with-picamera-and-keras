@@ -60,8 +60,13 @@ The image sent to ResNet50 is stored with Keras array_to_img and PIL save() as c
 The later is same as (Classify ImageNet classes with ResNet50)[https://keras.io/applications/].
 
 ## example
+How an input image is shown and the inference is output like this:
+
 ![desktop](img/ex1.png)
 
 ![banana](img/banana.jpg)
 
+The banana is 93% likely banana.
+
 ![bananaoutput](img/bananaoutput.jpg)
+
