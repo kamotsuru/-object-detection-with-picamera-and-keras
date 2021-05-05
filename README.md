@@ -1,6 +1,6 @@
 # object-detection-with-picamera-and-keras
 ## description
-The image output by [PiNoIR Camera Module](https://www.adafruit.com/product/1567) on an old [Raspbeery Pi 1 MODEL B+](https://www.raspberrypi.org/products/raspberry-pi-1-model-b/)  is sent to (https://www.adafruit.com/product/1567)[Classify ImageNet classes with ResNet50](https://keras.io/api/applications/#usage-examples-for-image-classification-models).
+The image output by [PiNoIR Camera Module](https://www.adafruit.com/product/1567) on an old [Raspbeery Pi 1 MODEL B+](https://www.raspberrypi.org/products/raspberry-pi-1-model-b/) is sent to [Classify ImageNet classes with ResNet50](https://keras.io/api/applications/#usage-examples-for-image-classification-models).
 
 ```
 model = ResNet50(weights='imagenet')
@@ -19,7 +19,7 @@ reads ResNet50. It takes about seven minutes by Raspbeery Pi 1 MODEL B+...
 ```
 
 obtains BGR ordered OpenCV structured numpy array from PiCamera and show as an image with OpenCV imgshow()
-Ref. (4.4. Capturing to an OpenCV object)[http://picamera.readthedocs.io/en/release-1.10/recipes1.html#capturing-to-an-opencv-object]
+Ref. [4.4. Capturing to an OpenCV object](http://picamera.readthedocs.io/en/release-1.10/recipes1.html#capturing-to-an-opencv-object)
 
 The obtained image is resized with OpenCV resize() to the window size.
 
